@@ -3151,9 +3151,6 @@ HOST-SUFFIX,dnsrd.com,自动选择
 HOST-SUFFIX,dnssec.net,自动选择
 HOST-SUFFIX,dnvod.tv,自动选择
 HOST-SUFFIX,doc.new,自动选择
-HOST-SUFFIX,docker.com,自动选择
-HOST-SUFFIX,docker.io,自动选择
-HOST-SUFFIX,dockerstatus.com,自动选择
 HOST-SUFFIX,docs.cfw.lbyczf.com,自动选择
 HOST-SUFFIX,docs.new,自动选择
 HOST-SUFFIX,doctorvoice.org,自动选择
@@ -8765,6 +8762,7 @@ HOST-SUFFIX,compose-spec.io,Docker
 HOST-SUFFIX,docker.com,Docker
 HOST-SUFFIX,docker.io,Docker
 HOST-SUFFIX,dockerhub.com,Docker
+HOST-SUFFIX,dockerstatus.com,Docker
 
 # ===== Epic.list =====
 #https://yfamilys.com/rule/Epic.list
