@@ -8756,6 +8756,16 @@ HOST-SUFFIX,discordstatus.com,自动选择
 HOST-SUFFIX,hammerandchisel.ssl.zendesk.com,自动选择
 HOST-SUFFIX,watchanimeattheoffice.com,自动选择
 
+# ===== Docker.list =====
+#https://yfamilys.com/rule/Docker.list
+HOST,d1q6f0aelx0por.cloudfront.net,Docker
+HOST,d2wy8f7a9ursnm.cloudfront.net,Docker
+HOST,d36jcksde1wxzq.cloudfront.net,Docker
+HOST-SUFFIX,compose-spec.io,Docker
+HOST-SUFFIX,docker.com,Docker
+HOST-SUFFIX,docker.io,Docker
+HOST-SUFFIX,dockerhub.com,Docker
+
 # ===== Epic.list =====
 #https://yfamilys.com/rule/Epic.list
 HOST-SUFFIX,battlebreakers.com,自动选择
