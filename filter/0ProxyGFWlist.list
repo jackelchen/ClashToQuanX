@@ -1486,9 +1486,6 @@ DOMAIN-SUFFIX,dnsrd.com,♻️ 自动选择
 DOMAIN-SUFFIX,dnssec.net,♻️ 自动选择
 DOMAIN-SUFFIX,dnvod.tv,♻️ 自动选择
 DOMAIN-SUFFIX,doc.new,♻️ 自动选择
-DOMAIN-SUFFIX,docker.com,♻️ 自动选择
-DOMAIN-SUFFIX,docker.io,♻️ 自动选择
-DOMAIN-SUFFIX,dockerstatus.com,♻️ 自动选择
 DOMAIN-SUFFIX,docs.cfw.lbyczf.com,♻️ 自动选择
 DOMAIN-SUFFIX,docs.new,♻️ 自动选择
 DOMAIN-SUFFIX,doctorvoice.org,♻️ 自动选择
@@ -6764,8 +6761,6 @@ DOMAIN-SUFFIX,bbc.com,♻️ 自动选择
 
 # Developer 开发者常用国外网站、镜像和论坛
 DOMAIN-SUFFIX,apache.org,♻️ 自动选择
-DOMAIN-SUFFIX,docker.com,♻️ 自动选择
-DOMAIN-SUFFIX,docker.io,♻️ 自动选择
 DOMAIN-SUFFIX,elastic.co,♻️ 自动选择
 DOMAIN-SUFFIX,elastic.com,♻️ 自动选择
 DOMAIN-SUFFIX,gcr.io,♻️ 自动选择
