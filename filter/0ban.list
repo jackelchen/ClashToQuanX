@@ -1,0 +1,8 @@
+# 禁连
+DOMAIN-KEYWORD,duomeng,🛑 全球拦截
+
+# Block iOS Update
+DOMAIN-SUFFIX,mesu.apple.com,🛑 全球拦截
+DOMAIN-SUFFIX,gdmf.apple.com,🛑 全球拦截
+DOMAIN-SUFFIX,updates-http.cdn-apple.com,🛑 全球拦截
+DOMAIN-SUFFIX,xp.apple.com,🛑 全球拦截

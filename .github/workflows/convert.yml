@@ -1,0 +1,42 @@
+name: Convert Clash rules to Quantumult X
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'filter/**'
+      - 'scripts/**'
+      - '.github/workflows/convert.yml'
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Convert
+        run: python scripts/convert.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain output/)" ]; then
+            git add output/
+            git commit -m "chore: auto-update Quantumult X rules"
+            git push
+          else
+            echo "No changes in output/, skip commit."
+          fi

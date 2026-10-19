@@ -1,0 +1,10 @@
+# 直连
+DOMAIN-KEYWORD,alipay,🎯 全球直连
+DOMAIN-SUFFIX,local,🎯 全球直连
+IP-CIDR,127.0.0.0/8,🎯 全球直连
+IP-CIDR,172.16.0.0/12,🎯 全球直连
+IP-CIDR,192.168.0.0/16,🎯 全球直连
+IP-CIDR,192.168.1.0/16,🎯 全球直连
+IP-CIDR6,fe80::/10,🎯 全球直连
+DOMAIN-SUFFIX,cn,🎯 全球直连
+DOMAIN-KEYWORD,-cn,🎯 全球直连

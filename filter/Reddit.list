@@ -1,0 +1,10 @@
+#https://yfamilys.com/rule/Reddit.list
+
+DOMAIN-SUFFIX,redd.it,Reddit
+DOMAIN-SUFFIX,reddit.com,Reddit
+DOMAIN-SUFFIX,redditmail.com,Reddit
+DOMAIN-SUFFIX,redditmedia.com,Reddit
+DOMAIN-SUFFIX,redditstatic.com,Reddit
+DOMAIN-SUFFIX,reddituploads.com,Reddit
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net,Reddit
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,Reddit

@@ -1,0 +1,7 @@
+#https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+
+DOMAIN,bahamut.akamaized.net,Bahamut
+DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
+DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
+DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
+DOMAIN-SUFFIX,gamer.com.tw,Bahamut

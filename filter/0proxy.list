@@ -1,0 +1,19 @@
+# 走proxy
+DOMAIN-SUFFIX,docker.com,♻️ 自动选择
+DOMAIN-SUFFIX,gamer520.com,♻️ 自动选择
+DOMAIN-SUFFIX,qbittorrent.org,♻️ 自动选择
+DOMAIN-SUFFIX,youxiaohou.com,♻️ 自动选择
+DOMAIN-SUFFIX,greasyfork.org,♻️ 自动选择
+DOMAIN-KEYWORD,z-lib,♻️ 自动选择
+DOMAIN-SUFFIX,guilded.gg,♻️ 自动选择
+DOMAIN-SUFFIX,yfamilys.com,♻️ 自动选择
+DOMAIN-SUFFIX,themoviedb.org,♻️ 自动选择
+
+# 梯子
+DOMAIN-SUFFIX,eevpn.com,♻️ 自动选择
+DOMAIN-SUFFIX,xn--mes358a9urctx.com,♻️ 自动选择
+DOMAIN-SUFFIX,djjc.cfd,♻️ 自动选择
+DOMAIN-SUFFIX,一元中转.xyz,♻️ 自动选择
+DOMAIN-SUFFIX,uniss.me,♻️ 自动选择
+DOMAIN-KEYWORD,leiting,♻️ 自动选择
+DOMAIN-SUFFIX,koyso.com,♻️ 自动选择

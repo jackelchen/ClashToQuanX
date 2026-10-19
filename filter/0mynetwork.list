@@ -1,0 +1,6 @@
+#自有域名相关
+
+DOMAIN-SUFFIX,cloudns.org,MyNetwork
+DOMAIN-SUFFIX,cloudns.net,MyNetwork
+DOMAIN-SUFFIX,cloudflare.com,MyNetwork
+DOMAIN-SUFFIX,workers.dev,MyNetwork

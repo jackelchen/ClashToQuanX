@@ -1,0 +1,5 @@
+#https://yfamilys.com/rule/Ubisoft.list
+
+DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com,Ubisoft
+DOMAIN-SUFFIX,ubi.com,Ubisoft
+DOMAIN-SUFFIX,ubisoft.com,Ubisoft
