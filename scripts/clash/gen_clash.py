@@ -7,9 +7,9 @@ Auto-generate Clash ruleset config (output/clash.ini) from filter/*.list.
 
 生成方式（与 output/quanx.list 一样，由 GitHub Actions 生成并提交）:
 
-1. 以 scripts/clash/rule.ini 为模板（只含手动部分：0 开头 ruleset/组、系统组、国家节点、末尾参数）
+1. 以 scripts/clash/clash.template.ini 为模板（只含手动部分：0 开头 ruleset/组、系统组、国家节点、末尾参数）
 2. 在 AUTO 标记内重新生成非 0 开头的 ruleset 与 custom_proxy_group（按文件名字母序）
-3. 整体写入 output/clash.ini（rule.ini 本身不被修改）
+3. 整体写入 output/clash.ini（模板文件本身不被修改）
 
 规则文件的策略名取其文件名（不含扩展名）。脚本会校验每个文件里的策略名与文件名一致，
 不一致时给出警告（不中断），避免静默产生错误规则。
@@ -25,7 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CLASH_DIR = ROOT / "filter"
-RULE_INI = Path(__file__).resolve().parent / "rule.ini"           # 模板:手动部分
+RULE_INI = Path(__file__).resolve().parent / "clash.template.ini" # 模板:手动部分
 OUTPUT_CLASH = ROOT / "output" / "clash.ini"      # 生成的完整 Clash 配置
 
 GITHUB_OWNER = "jackelchen"
