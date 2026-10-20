@@ -358,49 +358,6 @@ DOMAIN-SUFFIX,znsv.baidu.com,🛑 全球拦截
 DOMAIN-SUFFIX,zz.bdstatic.com,🛑 全球拦截
 DOMAIN-SUFFIX,zzy1.quyaoya.com,🛑 全球拦截
 
-# Book-app 起点 掌阅 书旗 宜搜
-DOMAIN-SUFFIX,ad.zhangyue.com,🛑 全球拦截
-DOMAIN-SUFFIX,adm.ps.easou.com,🛑 全球拦截
-DOMAIN-SUFFIX,aishowbger.com,🛑 全球拦截
-DOMAIN-SUFFIX,api.itaoxiaoshuo.com,🛑 全球拦截
-DOMAIN-SUFFIX,assets.ps.easou.com,🛑 全球拦截
-DOMAIN-SUFFIX,bbcoe.cn,🛑 全球拦截
-DOMAIN-SUFFIX,cj.qidian.com,🛑 全球拦截
-DOMAIN-SUFFIX,dkeyn.com,🛑 全球拦截
-DOMAIN-SUFFIX,drdwy.com,🛑 全球拦截
-DOMAIN-SUFFIX,e.aa985.cn,🛑 全球拦截
-DOMAIN-SUFFIX,e.v02u9.cn,🛑 全球拦截
-DOMAIN-SUFFIX,e701.net,🛑 全球拦截
-DOMAIN-SUFFIX,ehxyz.com,🛑 全球拦截
-DOMAIN-SUFFIX,ethod.gzgmjcx.com,🛑 全球拦截
-DOMAIN-SUFFIX,focuscat.com,🛑 全球拦截
-DOMAIN-SUFFIX,game.qidian.com,🛑 全球拦截
-DOMAIN-SUFFIX,hdswgc.com,🛑 全球拦截
-DOMAIN-SUFFIX,jyd.fjzdmy.com,🛑 全球拦截
-DOMAIN-SUFFIX,m.ourlj.com,🛑 全球拦截
-DOMAIN-SUFFIX,m.txtxr.com,🛑 全球拦截
-DOMAIN-SUFFIX,m.vsxet.com,🛑 全球拦截
-DOMAIN-SUFFIX,miam4.cn,🛑 全球拦截
-DOMAIN-SUFFIX,o.if.qidian.com,🛑 全球拦截
-DOMAIN-SUFFIX,p.vq6nsu.cn,🛑 全球拦截
-DOMAIN-SUFFIX,picture.duokan.com,🛑 全球拦截
-DOMAIN-SUFFIX,push.zhangyue.com,🛑 全球拦截
-DOMAIN-SUFFIX,pyerc.com,🛑 全球拦截
-DOMAIN-SUFFIX,s1.cmfu.com,🛑 全球拦截
-DOMAIN-SUFFIX,sc.shayugg.com,🛑 全球拦截
-DOMAIN-SUFFIX,sdk.cferw.com,🛑 全球拦截
-DOMAIN-SUFFIX,sezvc.com,🛑 全球拦截
-DOMAIN-SUFFIX,sys.zhangyue.com,🛑 全球拦截
-DOMAIN-SUFFIX,tjlog.ps.easou.com,🛑 全球拦截
-DOMAIN-SUFFIX,tongji.qidian.com,🛑 全球拦截
-DOMAIN-SUFFIX,ut2.shuqistat.com,🛑 全球拦截
-DOMAIN-SUFFIX,xgcsr.com,🛑 全球拦截
-DOMAIN-SUFFIX,xjq.jxmqkj.com,🛑 全球拦截
-DOMAIN-SUFFIX,xpe.cxaerp.com,🛑 全球拦截
-DOMAIN-SUFFIX,xtzxmy.com,🛑 全球拦截
-DOMAIN-SUFFIX,xyrkl.com,🛑 全球拦截
-DOMAIN-SUFFIX,zhuanfakong.com,🛑 全球拦截
-
 # ByteDance 头条抖音
 DOMAIN-SUFFIX,ad.toutiao.com,🛑 全球拦截
 DOMAIN-SUFFIX,dsp.toutiao.com,🛑 全球拦截
@@ -1123,7 +1080,6 @@ DOMAIN-SUFFIX,push.wandoujia.com,🛑 全球拦截
 DOMAIN-SUFFIX,pv.cheshi-img.com,🛑 全球拦截
 DOMAIN-SUFFIX,pv.cheshi.com,🛑 全球拦截
 DOMAIN-SUFFIX,pv.xcar.com.cn,🛑 全球拦截
-DOMAIN-SUFFIX,qdp.qidian.com,🛑 全球拦截
 DOMAIN-SUFFIX,res.gwifi.com.cn,🛑 全球拦截
 DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,🛑 全球拦截
 DOMAIN-SUFFIX,sta.ganji.com,🛑 全球拦截
