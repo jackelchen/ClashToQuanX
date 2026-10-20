@@ -1,4 +1,4 @@
-name: Convert Clash rules to Quantumult X
+name: Generate rule configs
 
 on:
   push:
@@ -26,8 +26,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Convert
-        run: python scripts/convert.py
+      - name: Generate Clash config
+        run: python scripts/clash/gen_clash.py
+
+      - name: Convert to Quantumult X
+        run: python scripts/quanx/gen_quanx.py
 
       - name: Commit and push
         run: |
@@ -35,7 +38,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain output/)" ]; then
             git add output/
-            git commit -m "chore: auto-update Quantumult X rules"
+            git commit -m "chore: auto-update generated rules"
             git push
           else
             echo "No changes in output/, skip commit."
