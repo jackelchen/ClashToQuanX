@@ -6,3 +6,6 @@ DOMAIN-SUFFIX,mesu.apple.com,🛑 全球拦截
 DOMAIN-SUFFIX,gdmf.apple.com,🛑 全球拦截
 DOMAIN-SUFFIX,updates-http.cdn-apple.com,🛑 全球拦截
 DOMAIN-SUFFIX,xp.apple.com,🛑 全球拦截
+
+#原子时钟app广告
+DOMAIN-SUFFIX,doubleclick-cn.net,🛑 全球拦截
