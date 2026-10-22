@@ -33,6 +33,7 @@ jobs:
         run: python scripts/quanx/gen_quanx.py
 
       - name: Commit and push
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -40,6 +41,18 @@ jobs:
             git add output/
             git commit -m "chore: auto-update generated rules"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No changes in output/, skip commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Purge jsDelivr cache
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          for url in \
+            https://purge.jsdelivr.net/gh/jackelchen/SubRule@main/output/quanx.list \
+            https://purge.jsdelivr.net/gh/jackelchen/SubRule@main/output/clash.ini ; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
+            echo "purge $url -> HTTP $code"
+          done
