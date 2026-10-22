@@ -1135,8 +1135,6 @@ HOST-SUFFIX,ad.qun.qq.com,reject
 HOST-SUFFIX,adsfile.qq.com,reject
 HOST-SUFFIX,bugly.qq.com,reject
 HOST-SUFFIX,buluo.qq.com,reject
-HOST-SUFFIX,e.qq.com,reject
-HOST-SUFFIX,gdt.qq.com,reject
 HOST-SUFFIX,l.qq.com,reject
 HOST-SUFFIX,monitor.qq.com,reject
 HOST-SUFFIX,pingma.qq.com,reject
@@ -6263,7 +6261,6 @@ HOST-SUFFIX,qianglie.com,自动选择
 HOST-SUFFIX,qiangwaikan.com,自动选择
 HOST-SUFFIX,qiangyou.org,自动选择
 HOST-SUFFIX,qianmo.tw,自动选择
-HOST-SUFFIX,qidian.ca,自动选择
 HOST-SUFFIX,qienkuen.org,自动选择
 HOST-SUFFIX,qiwen.lu,自动选择
 HOST-SUFFIX,qixianglu.cn,自动选择
